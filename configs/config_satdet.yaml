@@ -1,0 +1,20 @@
+duration : 10
+fps : 10
+frame_skip : 10
+height : 256
+distance_scale : 0.001
+max_depth : 200000
+fov : 30
+period : 5640
+
+initialPos : [0, -6871000, 0]
+sunDir : [0, -1, 0]
+camPos : 200 # [x,y,z] or scalar distance
+camDir : # If not provided, chaser view direction is towards target
+
+satInitialRot : [0., 0., 90.]
+angVel : [2., 4., 1.]
+axis : [0, 0, -1] # Only used if angVel is not a list
+
+earthTexPath : "earth/earth.jpg"
+satObjPath : "debrismodels/ICECube.obj"

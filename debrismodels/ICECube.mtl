@@ -1,0 +1,210 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v4.1.243631913)
+
+newmtl Afta-solar1
+Kd 0.22670323 0.17564562 0.49408561
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/glassmap1.jpg
+#map_bump christek-silo/Images/Textures/glassmap1.jpg
+
+newmtl Afta-solar22
+Kd 0.23036285 0.19055267 0.48913261
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/glassmap1.jpg
+#map_bump christek-silo/Images/Textures/glassmap1.jpg
+
+newmtl Afta-solar33
+Kd 0.20288345 0.16482034 0.4941054
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/glassmap1.jpg
+#map_bump christek-silo/Images/Textures/glassmap1.jpg
+
+newmtl Afta-solar44
+Kd 0.19781137 0.16069984 0.48175278
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/glassmap1.jpg
+#map_bump christek-silo/Images/Textures/glassmap1.jpg
+
+newmtl Afta-solar55
+Kd 0.2269192 0.15290609 0.47679439
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/glassmap1.jpg
+#map_bump christek-silo/Images/Textures/glassmap1.jpg
+
+newmtl Afta-solar66
+Kd 0.18460692 0.16131616 0.47292072
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/glassmap1.jpg
+#map_bump christek-silo/Images/Textures/glassmap1.jpg
+
+newmtl Afta-solar77
+Kd 0.20288345 0.16482034 0.4941054
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/glassmap1.jpg
+#map_bump christek-silo/Images/Textures/glassmap1.jpg
+
+newmtl Default
+Kd 0.7843138 0.7843138 0.7843138
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+illum 1
+
+newmtl ICECube-base
+Kd 0.61717594 0.61719078 0.61718279
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-black-fl
+Kd 0.038326353 0.037841268 0.037147619
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-black-sm
+Kd 0.038326353 0.037841268 0.037147619
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-gold
+Kd 0.76473236 0.64446247 0.39448994
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-grey-dark
+Kd 0.29450908 0.29335859 0.29025719
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+#map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl ICECube-grey-light
+Kd 0.61559343 0.61338603 0.60743541
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+#map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl ICECube-lens
+Kd 0.14685027 0.11307564 0.33433267
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 144
+illum 2
+
+newmtl ICECube-silverfoil
+Kd 0.96896333 0.96559268 0.95650631
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+#bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+#map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl ICECube-solar1
+Kd 0.12799281 0.096023284 0.30545503
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-solarbacks
+Kd 0.089016251 0.089019358 0.089017704
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-solaredges
+Kd 0.76332158 0.38574275 0.21875894
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-whitepanel
+Kd 0.87966335 0.87968397 0.87967288
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2
+
+newmtl ICECube-yellow
+Kd 0.78347331 0.72257096 0.1245866
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ni 1
+Ns 36
+illum 2

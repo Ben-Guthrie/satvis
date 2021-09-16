@@ -1,0 +1,21 @@
+duration : 300                              # Simulation duration in seconds
+fps : 10                                    # Frames per second
+frame_skip : 10                             # Take images every frame_skip frames
+height : 256                                # Image height (and width)
+distance_scale : 0.001
+max_depth : 200000
+fov : 30                                    # Camera vertical field of view in degrees
+period : 5400                               # Orbital period
+
+initial_pos : [0, -6871000, 0]              # Position of the target satellite relative to the Earth
+cam_pos : [50, 50, 0]                       # [x,y,z] or scalar distance
+cam_dir :                                   # If not provided, chaser view direction is towards target
+sun_dir : [0, -1, -0.5]                     # Either a direction vector or a scalar angle in degrees...
+                                            # ...if sun_dir is an angle, rotate the sun by this much from the view direction, around the world z axis
+
+attitude : [90., 0., 90.]                   # Initial attitude of the target
+ang_vel : [2., 4., 1.]                      # Angular velocity of the target satellite relative to the LVLH frame (Euler angles or scaler angular velocity)
+axis : [0, 0, -1]                           # Rotation axis, only used if angVel is a scalar not a list
+
+satObjDir : "debrismodels"
+satellites :  # List of satellites, or leave blank if using all satellites in debrismodels directory

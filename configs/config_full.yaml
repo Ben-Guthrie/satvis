@@ -1,0 +1,18 @@
+duration : 300                  # Simulation duration in seconds
+fps : 10                        # Frames per second
+frame_skip : 10                 # Take images every frame_skip frames
+height : 256                    # Image height (and width)
+distance_scale : 0.001          # Scale down distances in blender by this factor
+max_depth : 200000
+fov : 30                        # Camera vertical field of view in degrees
+date : "01/01/2001"
+time : 12
+mu : 3.986E14
+radius : 6871000                # Orbit radius (incl. Earth radius)
+distance : 30                   # Initial separation
+
+attitude : [90., 0., 90.]       # Initial attitude (Euler angles)
+ang_vel : [2., 4., 1.]          # Angular velocity (Euler angles)
+
+satObjDir : "debrismodels"
+satellites : ["Calipso", "LRO", "ICECube", "MiRaTA", "ICESat2", "CloudSat"] # List of satellites, or leave blank if using all satellites in debrismodels directory

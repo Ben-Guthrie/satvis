@@ -1,0 +1,37 @@
+# Blender MTL File: 'earth.blend'
+# Material Count: 3
+
+newmtl Atmosphere
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.019297 0.184588 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.500000
+illum 1
+
+newmtl Clouds
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 Clouds.png
+map_Kd Clouds.png
+map_d Clouds.png
+
+newmtl Earth
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump Bump.jpg
+map_Kd Albedo.jpg
