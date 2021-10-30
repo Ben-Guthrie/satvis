@@ -10,7 +10,7 @@ The aim of this code is to construct realistic datasets of image data in on-orbi
 ```
 cd </path/to/blender>/python/bin
 ./python -m ensurepip
-./python -m pip install --update pip
+./python -m pip install --upgrade pip
 ./python -m pip install scikit-build
 ./python -m pip install opencv-python numpy pyyaml
 ```
