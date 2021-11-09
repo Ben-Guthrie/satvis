@@ -1,7 +1,7 @@
 #!/bin/bash
 data_dir=$1
 config=$2
-num_vis=200
+num_vis=400
 
 blend_file=earth/earth.blend
 

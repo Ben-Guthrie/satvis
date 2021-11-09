@@ -1,21 +1,21 @@
-duration : 30
+duration : 300
 fps : 10
-frame_skip : 10
+frame_skip : 100
 height : 256
 distance_scale : 0.001
 max_depth : 200000
 fov : 30
-period : 5640
+period : 5400                               # Orbital period
 
-initialPos : [0, -6871000, 0]
-sunDir : [0, -1, 0]
-camPos : [150, 100, 30] # [x,y,z] or scalar distance
-camDir : [-1.5, -1, 0] # If not provided, chaser view direction is towards target
+initial_pos : [0, -6871000, 0]              # Position of the target satellite relative to the Earth
+cam_pos : [150, 100, 30]                    # [x,y,z] or scalar distance
+cam_dir : [-1.5, -1., 0.]                   # If not provided, chaser view direction is towards target
+sun_dir : [0, -1, -0.5]                     # Either a direction vector or a scalar angle in degrees...
+                                            # ...if sun_dir is an angle, rotate the sun by this much from the view direction, around the world z axis
 
-satInitialRot : [0., 0., 90.]
-angVel : [2., 4., 1.]
-axis : [0, 0, -1] # Only used if angVel is not a list
+attitude : [90., 0., 90.]                   # Initial attitude of the target
+ang_vel : [2., 4., 1.]                      # Angular velocity of the target satellite relative to the LVLH frame (Euler angles or scaler angular velocity)
+axis : [0, 0, -1]                           # Rotation axis, only used if angVel is a scalar not a list
 
-earthTexPath : "D:\\Users\\Ben\\Documents\\Project\\satvis\\satvis\\earth\\earth.jpg"
-satObjDir : "D:\\Users\\Ben\\Documents\\Project\\satvis\\satvis\\debrismodels"
-satellites : ["Calipso", "LRO", "ICECube", "MiRaTA", "ICESat2", "CloudSat"] # List of satellites or leave blank if using all
+satObjDir : "debrismodels"
+satellites : ["Aqua", "Calipso", "CloudSat", "ICECube", "ICESat2", "LRO", "MiRaTA", "Sentinel6"] # List of satellites, or leave blank if using all satellites in debrismodels directory

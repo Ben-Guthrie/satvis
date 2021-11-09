@@ -8,7 +8,7 @@ fov : 30                                    # Camera vertical field of view in d
 period : 5400                               # Orbital period
 
 initial_pos : [0, -6871000, 0]              # Position of the target satellite relative to the Earth
-cam_pos : [50, 50, 0]                       # [x,y,z] or scalar distance
+cam_pos : [50, 0, 0]                       # [x,y,z] or scalar distance
 cam_dir :                                   # If not provided, chaser view direction is towards target
 sun_dir : [0, -1, -0.5]                     # Either a direction vector or a scalar angle in degrees...
                                             # ...if sun_dir is an angle, rotate the sun by this much from the view direction, around the world z axis

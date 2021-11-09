@@ -15,4 +15,4 @@ attitude : [90., 0., 90.]       # Initial attitude (Euler angles)
 ang_vel : [2., 4., 1.]          # Angular velocity (Euler angles)
 
 satObjDir : "debrismodels"
-satellites : ["Calipso", "LRO", "ICECube", "MiRaTA", "ICESat2", "CloudSat"] # List of satellites, or leave blank if using all satellites in debrismodels directory
+satellites :  # List of satellites, or leave blank if using all satellites in debrismodels directory

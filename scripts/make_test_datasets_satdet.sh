@@ -1,6 +1,6 @@
 #!/bin/bash
-angvels=(0.5 1 1.5 2 3 4 5 6 7)
-#angvels=(5)
+#angvels=(0.5 1 1.5 2 3 4 5 6 7)
+angvels=(5)
 #sats=('ICECube' 'LRO' 'MiRaTA' 'ICESat2' 'Calipso' 'CloudSat')
 #sats=('Aqua' 'Sentinel6' 'SolarB')
 sats=('Aqua' 'Sentinel6' 'SolarB' 'ICECube' 'LRO' 'MiRaTA' 'ICESat2' 'Calipso' 'CloudSat')
@@ -10,7 +10,7 @@ axis="[3, 2, -4]"
 data_dir=$1
 config=$2
 
-tmp_config=tmp_config.yaml
+tmp_config=tmp_config_satdet.yaml
 num_vis=1
 blend_file=earth/earth.blend
 
@@ -30,7 +30,7 @@ for avel in "${angvels[@]}"; do
 		mkdir $dirname
 
 		# Simulate
-		blender $blend_file --background --python simulate_partial.py -- --label_surfaces --target $sat --pair_images -v 0.0 -t 1.0 --num_vis $num_vis $tmp_config $dirname
+		blender $blend_file --background --python simulate_partial.py -- --label_surfaces --target $sat -v 0.0 -t 1.0 --num_vis $num_vis $tmp_config $dirname --bounding_box
 	done
 done
 
