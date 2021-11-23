@@ -68,3 +68,6 @@ If --pair_images is selected, the data is collected into pairs of images, with d
 
 ## Adding new satellite models
 The simulation can access any 3D models placed in the debrismodels/ directory. Currently, the software can load .obj, .fbx, .x3d and .3ds files. More satellites can be added to the datasets by simply adding the model file to the directory. If the model is desired to be labelled with surface segmentations, then it is necessary to also provide a black and white model, where the white surfaces correspond to the label, in the format <model_name>-label-<label_name>.
+
+## Pre-made datasets
+A number of training and test datasets are available at https://www.kaggle.com/benguthrie/inorbit-satellite-image-datasets
