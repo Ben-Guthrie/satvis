@@ -6,5 +6,6 @@ description: A simulation framework for generating labelled image data of satell
 show_downloads: true
 logo: /assets/img/logo.png
 
+datasets_url: https://www.kaggle.com/benguthrie/inorbit-satellite-image-datasets
 github:
   zip_url: https://github.com/Ben-Guthrie/satvis/archive/refs/heads/master.zip
