@@ -34,7 +34,7 @@ There are two possible modes in which to run the simulation. The full simulation
 ## Generated datasets
 The datasets have the following format, assuming all data labels are used:
 
-<dataset_name>
+dataset_name
 - data
   - all_data.txt
   - bounding_box.txt
