@@ -1,6 +1,6 @@
 theme: minimal-mistakes-jekyll
 
-title: "satvis: On-orbit visualisation of satellite proximity operations"
+title: satvis
 description: A simulation framework for generating labelled image data of satellite proximity operations.
 
 downloads: true
