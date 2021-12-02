@@ -34,7 +34,7 @@ There are two possible modes in which to run the simulation. The full simulation
 ## Generated datasets
 The datasets have the following format, assuming all data labels are used:
 
-'<dataset_name>'
+\<dataset_name>
 - data
   - all_data.txt
   - bounding_box.txt
@@ -62,12 +62,12 @@ In data/all_data.txt, the images are each labelled, in the following order, with
 
 If --bounding_box is selected, the file data/bounding_box.txt contains the name and bounding box about the satellite. The bounding box is defined as (x, y, w, h), where x and y are the pixel coordinates of the top-left of the box, and w and h are the width and height in pixels.
 
-If --label_surfaces is selected, then labels/ contains a separate directory for all surface labels provided in the debrismodels directory. If a satellite model has a corresponding surface label model (named '<model_name>-label-<label_name>') then the label is stored in labels/'<label_name>'. This label is a black and white image, where a pixel with intensity > 0.5 corresponds to the specific surface.
+If --label_surfaces is selected, then labels/ contains a separate directory for all surface labels provided in the debrismodels directory. If a satellite model has a corresponding surface label model (named \<model_name>-label-<label_name>) then the label is stored in labels/\<label_name>. This label is a black and white image, where a pixel with intensity > 0.5 corresponds to the specific surface.
 
 If --pair_images is selected, the data is collected into pairs of images, with different separations between the image files. For each pair of images, the file data/rotations.txt contains the index of the "before" and "after" images, the observed rotation quaternion (x, y, z, w) which is a combination of rotations of both target and chaser, and the scalar distance to the target before and after the timestep.
 
 ## Adding new satellite models
-The simulation can access any 3D models placed in the debrismodels/ directory. Currently, the software can load .obj, .fbx, .x3d and .3ds files. More satellites can be added to the datasets by simply adding the model file to the directory. If the model is desired to be labelled with surface segmentations, then it is necessary to also provide a black and white model, where the white surfaces correspond to the label, in the format '<model_name>-label-<label_name>'.
+The simulation can access any 3D models placed in the debrismodels/ directory. Currently, the software can load .obj, .fbx, .x3d and .3ds files. More satellites can be added to the datasets by simply adding the model file to the directory. If the model is desired to be labelled with surface segmentations, then it is necessary to also provide a black and white model, where the white surfaces correspond to the label, in the format \<model_name>-label-\<label_name>.
 
 ## Premade datasets
 A number of training and test datasets are available at https://www.kaggle.com/benguthrie/inorbit-satellite-image-datasets
